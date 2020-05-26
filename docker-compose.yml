@@ -42,8 +42,7 @@ services:
       GRAPHQL_PORT: '9090'
       HOST: '0.0.0.0'
       PORT: '3000'
-    image: 'node:10'
-    user: 'node'
+    image: 'node:12'
     working_dir: /home/node/app
     volumes:
       - ./frontend:/home/node/app
