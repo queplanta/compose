@@ -40,3 +40,4 @@ module "kubernetes-config" {
 
   write_kubeconfig = var.write_kubeconfig
 }
+
